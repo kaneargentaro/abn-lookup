@@ -101,7 +101,7 @@ CREATE TABLE IF NOT EXISTS public.business_addresses
     abn        CHAR(11) PRIMARY KEY REFERENCES public.abn_records (abn) ON DELETE CASCADE,
 
     state_code VARCHAR(3), -- NSW, VIC, QLD, etc.
-    postcode   VARCHAR(4), -- Australian postcodes are 4 digits
+    postcode   VARCHAR(50),
 
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
