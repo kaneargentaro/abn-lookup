@@ -149,14 +149,14 @@ supabase db pull
 supabase migration list
 
 # Generate TypeScript types
-supabase gen types typescript --local > src/types/database.ts
+supabase gen types typescript --local > packages/types/database.ts
 ```
 
 ## Troubleshooting
 
 ### "Not linked to remote project"
 
-Run: `supabase link --project-ref vqtjdwczecnaqddxlsuz`
+Run: `supabase link --project-ref {id}`
 
 ### "Migration already applied"
 
