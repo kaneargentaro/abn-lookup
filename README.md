@@ -110,7 +110,7 @@ After setting up the database schema:
 npm run generate:types
 ```
 
-This generates type-safe database types in `apps/web/src/types/database.ts`.
+This generates type-safe database types in `pacakges/types/database.ts`.
 
 ---
 
